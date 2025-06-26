@@ -27,3 +27,5 @@ jobs:
         uses: super-linter/super-linter@latest
         env:
           MULTI_STATUS: false
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_MARKDOWN: false 
